@@ -148,7 +148,7 @@ button span{
 }
 body
 {
-    background-color:rgb(14, 49, 85);
+    background-color:rgb(3, 35, 70);
     
 }
 /* Header End... */
@@ -163,7 +163,7 @@ body
 #section-one .text
 {
     padding:1rem 3rem 1rem 4rem;
-    background-color: rgb(14, 49, 85);
+    background-color:rgb(3, 35, 70);
     color: #fff;
 }
 #section-one div
@@ -187,7 +187,7 @@ body
     padding: 0rem 1rem;
     line-height: 1.5;
     text-align: justify;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 #section-one a,
 #section-one button
@@ -202,6 +202,12 @@ body
 {
     font-weight: bolder;
     background-color: rgb(57, 142, 226);
+    transition: all 0.5s  ease-in-out;
+}
+#section-one a:hover
+{
+    background-color:rgb(25, 88, 151) ;
+    color: #ddd;
 }
 #section-one a i{
     margin-left: 1rem;
@@ -210,8 +216,14 @@ body
 }
 #section-one button
 {
+    transition: all 0.5s  ease-in-out;
     color: #aaa;
     background-color:rgb(25, 59, 94) ;
+}
+#section-one button:hover
+{
+    cursor: pointer;
+    background-color:rgb(38, 74, 109)  ;
 }
 #section-one button i
 {
@@ -229,8 +241,9 @@ body
     grid-gap: 2rem;
     grid-template-rows: 2fr 1fr;
     padding: 1rem 2rem;
+    overflow-x: hidden;
 }
-.pics div:first-child
+.pics div.basic
 {
     background-color: rgb(44, 141, 238);
     border-radius: 10px;
@@ -279,6 +292,7 @@ body
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     transform: translateX(33px);
+    
 }
 .pics .calender img
 {
@@ -287,3 +301,65 @@ body
     height: 100%;
 }
 
+.play
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(3, 40, 77) ;
+    padding: 0rem 1rem;
+    border-radius: 10px;
+
+}
+.play div
+{
+    flex:1;    
+}
+.play div img
+{
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+}
+.play div div p
+{
+ 
+ padding: 10px 0px!important;
+    text-align: left;
+  font-size: 0.7rem;
+}
+.play div div i
+{
+    border: 1px solid rgb(55, 112, 168);
+    border-radius: 50%;
+    padding: 10px;
+    margin: -10px 2px;
+    color: #ccc;
+}
+.play div div i:nth-child(2)
+{color:#fff}
+.play div div i:nth-child(2):hover
+{
+    color: #fff;
+background-color:rgb(14, 51, 88) ;
+cursor: pointer;
+}
+/* Section second */
+#section-second
+{
+    max-width: 1200px;
+    margin: auto;
+}
+#section-second .images 
+{
+    display: flex;
+}
+#section-second .images div
+{
+    flex: 1;
+}
+#section-second .images div img
+{
+    width: 100%;
+    height: auto;
+}
