@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,359 +7,483 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-.logo img
-{
-    width:40px;
+
+.logo img {
+    width: 40px;
     margin-right: 10px;
 }
-.logo img:hover
-{
+
+.logo img:hover {
     cursor: pointer;
 }
 
-header
-{
+header {
     height: 60px;
-    background-color: rgb(0,30,60);
+    background-color: rgb(0, 30, 60);
     padding: 0px 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgb(15, 56, 97);
 }
-.nav
-{
+
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#navbar ul
-{
+
+#navbar ul {
     display: flex;
 }
-#navbar ul li{
+
+#navbar ul li {
     padding: 10px;
     font-weight: bold;
     color: #fff;
     font-size: 0.8rem;
 }
-#navbar ul li a{
+
+#navbar ul li a {
     color: #fff;
 }
-#navbar ul li:hover
-{
- background-color:  rgb(16, 53, 94);
- border-radius: 10px;
- cursor:default
+
+#navbar ul li:hover {
+    background-color: rgb(16, 53, 94);
+    border-radius: 10px;
+    cursor: default
 }
 
 
 /* Navbar dropdown */
-#navbar ul li
-{
+#navbar ul li {
     position: relative;
 }
-#navbar ul li ul
-{
-    
+
+#navbar ul li ul {
+
     display: none;
-    
+
 }
-#navbar ul li:hover ul
-{
+
+#navbar ul li:hover ul {
     border-radius: 10px;
     display: block;
     position: absolute;
     left: 0px;
     width: 500px;
     margin-top: 0.65rem;
-    background-color: rgb(16, 53, 94);
+    background-color: rgb(0, 30, 60);
     color: #fff;
     border: 1px solid rgb(14, 56, 100);
 }
-#navbar ul li:hover ul li h2{
+
+#navbar ul li:hover ul li h2 {
     font-size: 1rem;
-    
+
 }
-#navbar ul li:hover ul li p{
+
+#navbar ul li:hover ul li p {
     font-weight: 100;
-    margin-top:0.5rem ;
+    margin-top: 0.5rem;
 }
 
-#navbar ul li:hover ul li
-{
+#navbar ul li:hover ul li {
     padding: 20px 30px;
-    border-bottom: 1px solid rgb(16, 78, 143);  
+    border-bottom: 1px solid rgb(16, 78, 143);
 
 }
-#navbar ul li:hover ul li:last-child
-{
+
+#navbar ul li:hover ul li:last-child {
     border-bottom: none;
 }
-#navbar ul li:hover ul li:hover
-{
-    background-color:rgb(31, 70, 114) ;
+
+#navbar ul li:hover ul li:hover {
+    background-color: rgb(20, 42, 66);
     cursor: pointer;
 }
-.search-part
-{
+
+.search-part {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-button
-{
+
+.search-part button {
     padding: 10px 20px;
     border-radius: 10px;
     background-color: rgb(10, 25, 41);
     border: 1px solid rgb(14, 56, 100);
-    color: #ccc;  
+    color: #ccc;
 }
 
 
-button i
-{
+button i {
     padding: 0px 10px 0px 0px;
     color: rgb(40, 115, 189);
 
 }
-button span{
+
+button span {
     border-radius: 10px;
     margin-left: 2rem;
     border: 1px solid rgb(14, 56, 76);
     padding: 5px 10px;
 }
-.search-part > i
-{
+
+.search-part>i {
     border: 1px solid rgb(14, 56, 76);
     padding: 5px;
     border-radius: 10px;
     margin: 0px 5px;
-    color: rgb(40, 115, 189) ;
+    color: rgb(40, 115, 189);
     font-size: 1.5rem;
     background-color: rgb(10, 25, 41);
 
 }
-.search-part button:hover,.search-part i:hover
- {
-  background-color: rgb(0,30,60);
- cursor: pointer;
+
+.search-part button:hover,
+.search-part i:hover {
+    background-color: rgb(0, 30, 60);
+    cursor: pointer;
 }
-body
-{
-    background-color:rgb(3, 35, 70);
-    
+
+body {
+    background-color: rgb(3, 35, 70);
+
 }
+
 /* Header End... */
 
 /* Section One Starts */
-#section-one
-{
+#section-one {
     display: flex;
     /* max-width: 1200px; */
-   
+
 }
-#section-one .text
-{
-    padding:1rem 3rem 1rem 4rem;
-    background-color:rgb(3, 35, 70);
+
+#section-one .text {
+    padding: 1rem 3rem 1rem 4rem;
+    background-color: rgb(3, 35, 70);
     color: #fff;
 }
-#section-one div
-{
+
+#section-one div {
     flex: 1;
 }
-#section-one h1
-{
+
+#section-one h1 {
     font-size: 4rem;
     font-weight: bolder;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 1rem;
     margin-top: 2rem;
 }
-#section-one h1 span
-{
+
+#section-one h1 span {
     color: rgb(57, 142, 226);
 }
-#section-one p
-{
+
+#section-one p {
     padding: 0rem 1rem;
     line-height: 1.5;
     text-align: justify;
     margin-bottom: 2rem;
 }
+
 #section-one a,
-#section-one button
-{
+#section-one button {
     border: 1px solid rgb(57, 142, 226);
-    padding: 1rem ;
+    padding: 1rem;
     border-radius: 10px;
     margin: 0rem 0.8rem;
     color: #fff;
 }
-#section-one a
-{
+
+#section-one a {
     font-weight: bolder;
     background-color: rgb(57, 142, 226);
-    transition: all 0.5s  ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
-#section-one a:hover
-{
-    background-color:rgb(25, 88, 151) ;
+
+#section-one a:hover {
+    background-color: rgb(25, 88, 151);
     color: #ddd;
 }
-#section-one a i{
+
+#section-one a i {
     margin-left: 1rem;
     font-weight: 100;
     font-size: 0.8rem;
 }
-#section-one button
-{
-    transition: all 0.5s  ease-in-out;
+
+#section-one button {
+    transition: all 0.5s ease-in-out;
     color: #aaa;
-    background-color:rgb(25, 59, 94) ;
+    background-color: rgb(25, 59, 94);
 }
-#section-one button:hover
-{
+
+#section-one button:hover {
     cursor: pointer;
-    background-color:rgb(38, 74, 109)  ;
+    background-color: rgb(38, 74, 109);
 }
-#section-one button i
-{
+
+#section-one button i {
     color: #aaa;
     margin-left: 1rem;
 }
 
-.pics
-{
-    background-color: rgb(0,30,60);
+.pics {
+    background-color: rgb(0, 30, 60);
     border-bottom-left-radius: 10px;
     color: #fff;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     grid-template-rows: 2fr 1fr;
     padding: 1rem 2rem;
     overflow-x: hidden;
 }
-.pics div.basic
-{
+
+.pics div.basic {
     background-color: rgb(44, 141, 238);
     border-radius: 10px;
 }
 
-.pics div:first-child div
-{
+.pics div:first-child div {
     margin-top: -10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.pics div:first-child div .img
-{
+
+.pics div:first-child div .img {
     width: 200px;
     height: 200px;
     padding: 1rem;
 }
-.pics div:first-child div .img img
-{
+
+.pics div:first-child div .img img {
     height: 100%;
     width: auto;
     border-radius: 50%;
 }
 
 
-.pics div:first-child p:first-child
-{
+.pics div:first-child p:first-child {
     margin: 1rem 0.5rem;
     font-weight: bold;
-    font-size: 1.3rem;    
+    font-size: 1.3rem;
 }
-.pics div:first-child p span
-{
+
+.pics div:first-child p span {
     font-size: 1rem;
     color: #ccc;
 }
-.pics div:first-child div p
-{
+
+.pics div:first-child div p {
     font-weight: bolder;
     font-size: 1.2rem;
 }
-.pics .calender
-{
+
+.pics .calender {
     border: 1px solid rgb(44, 141, 238);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     transform: translateX(33px);
-    
+
 }
-.pics .calender img
-{
+
+.pics .calender img {
     border-radius: 10px;
     width: auto;
     height: 100%;
 }
 
-.play
-{
+.play {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(3, 40, 77) ;
+    background-color: rgb(3, 40, 77);
     padding: 0rem 1rem;
     border-radius: 10px;
 
 }
-.play div
-{
-    flex:1;    
+
+.play div {
+    flex: 1;
 }
-.play div img
-{
+
+.play div img {
     width: auto;
     height: 100%;
     border-radius: 10px;
 }
-.play div div p
-{
- 
- padding: 10px 0px!important;
+
+.play div div p {
+
+    padding: 10px 0px !important;
     text-align: left;
-  font-size: 0.7rem;
+    font-size: 0.7rem;
 }
-.play div div i
-{
+
+.play div div i {
     border: 1px solid rgb(55, 112, 168);
     border-radius: 50%;
     padding: 10px;
     margin: -10px 2px;
     color: #ccc;
 }
-.play div div i:nth-child(2)
-{color:#fff}
-.play div div i:nth-child(2):hover
-{
-    color: #fff;
-background-color:rgb(14, 51, 88) ;
-cursor: pointer;
+
+.play div div i:nth-child(2) {
+    color: #fff
 }
+
+.play div div i:nth-child(2):hover {
+    color: #fff;
+    background-color: rgb(14, 51, 88);
+    cursor: pointer;
+}
+
 /* Section second */
-#section-second
-{
-    max-width: 1200px;
+#section-second {
+    max-width: 1100px;
     margin: auto;
 }
-#section-second .images 
-{
+
+.images {
+    margin-top: 5rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#section-second .images div
-{
+
+#section-second .images div {
     flex: 1;
+    margin: 0px 40px;
 }
-#section-second .images div img
-{
+
+#section-second .images div img {
     width: 100%;
     height: auto;
 }
+#section-second .text p
+{
+    color: #ccc;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+/* Section-section ends */
+
+/* Section-third start */
+#section-third
+{
+    background-color: rgb(10, 25, 41);
+    color: #fff;
+
+}
+#section-third div
+{
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem 0rem;
+}
+#section-third .section-T
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+#section-third .section-T div
+{
+    /* border: 2px solid green; */
+    margin-left: 0px;
+    padding: 0px 10px;
+    flex: 1;
+}
+#section-third .section-T div div
+{
+    padding: 15px 10px 20px 20px;
+    margin-bottom:1rem;
+}
+#section-third .section-T div div:nth-child(1n+3):hover
+{ cursor: pointer;
+    background-color: rgb(1, 28, 56);
+    border-radius: 10px;
+}
+
+#section-third div div h5
+{
+    color:rgb(93, 157, 221) ;
+    margin-bottom: 1rem;
+}
+#section-third div div h1
+{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+#section-third div div h1 span
+{
+    color: rgb(93, 157, 221);
+}
+#section-third div div p
+{
+    color: #ccc;
+}
+#section-third div div div h3
+{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+#section-third div div div p{
+    color: #ccc;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+#section-third div div div a{
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color: rgb(97, 156, 216);
+}
+#section-third div div div i
+{
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+#section-third .section-T .grand-child
+{
+    margin-top: 1rem;
+    border: 1px solid rgb(62, 143, 224);
+    background-color: rgb(14, 47, 80);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#section-third .section-T .section-T-2 div
+{
+margin-bottom: 0px;}
+#section-third .section-T .section-T-2 
+{
+    border-radius: 10px;
+    margin-left: 1rem;
+    padding: 0px;
+    overflow: hidden;
+}
+#section-third .section-T .section-T-2 div:first-child
+{
+    background-color: rgb(14, 47, 80);
+}
+#section-third .section-T .section-T-2 div:last-child
+{
+    background-color: rgb(1, 31, 61);
+}
+
