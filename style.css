@@ -678,7 +678,6 @@ margin-bottom: 0px;}
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(1, 27, 53);
-
 }
 .table
 {
@@ -796,11 +795,12 @@ color: #999;
     color: rgb(96, 173, 245) ;
     margin-bottom: 0.3rem;
 }
-#section-fifth div
+#section-fifth .section-fifth-data
 {
     max-width: 1100px;
     margin: auto;
     padding-top: 80px;
+    padding-bottom: 50px;
     color: #fff;
 }
 #section-fifth div h5
@@ -823,4 +823,100 @@ color: #999;
     line-height: 1.5;
     margin-bottom: 2rem;
     color: #aaa;
+}
+#section-fifth .diamond > div,
+#section-fifth .Gold > div
+{
+    display: flex;
+}
+#section-fifth .diamond
+{
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+#section-fifth .diamond > div,
+#section-fifth .Gold > div
+{
+    border-radius: 10px;
+    border: 1px solid rgb(72, 127, 179) ;
+    padding: 10px;
+    background-color:rgb(2, 46, 85) ;
+    align-items: center;
+}
+#section-fifth .Gold > div
+{
+    padding: 20px 10px;
+}
+#section-fifth .diamond > div div,
+#section-fifth .Gold > div div
+{
+    margin-left:15px;
+}
+#section-fifth .diamond div i
+{
+    color:rgb(82, 146, 206) ;
+}
+#section-fifth .diamond div h5,
+#section-fifth .Gold div h5
+{
+    color: #fff;
+    margin: 0px;
+}
+#section-fifth .diamond div p,
+#section-fifth .Gold div p
+{
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+}
+#section-fifth .diamond .zesty
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#section-fifth .Gold 
+{
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+}
+#section-fifth .Gold .mega{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#section-fifth .Gold .mega div img
+{
+   width: 100%;
+}
+#section-fifth .Gold .link-b i
+{
+    border: 1px solid rgb(72, 127, 179) ;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(72, 127, 179);  
+}
+#section-fifth .Gold .link-b
+{border: 1px dashed rgb(72, 127, 179);
+height: 85px;}
+#section-fifth .Gold .link-b a
+{
+    font-size: 0.9rem;
+    color: rgb(72, 127, 179) ;
+}
+#section-fifth .diamond > div:hover,
+#section-fifth .Gold > div:hover
+{
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 5px rgb(1, 31, 56), -3px -3px 5px 5px rgb(1, 31, 56);
+}
+#section-fifth .Gold  .link-b:hover
+{
+    box-shadow: none;
+    cursor: auto;
+}
+.gold-h
+{
+    color: rgb(226, 204, 77);
 }
