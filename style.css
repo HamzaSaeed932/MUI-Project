@@ -920,3 +920,224 @@ height: 85px;}
 {
     color: rgb(226, 204, 77);
 }
+#section-sixth
+{
+    padding: 80px 0px;
+    background-color:rgb(2, 25, 48)  ;
+    color: #fff;
+    border-bottom: 1px solid rgb(7, 54, 102);
+}
+#section-sixth > div
+{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;  
+}
+#section-sixth > div > div
+{
+    margin: 0px 10px;
+    flex: 1;
+}
+#section-sixth .showcase
+{
+     display: flex;
+    align-items: center;
+}
+#section-sixth .showcase div
+{
+    border: 1px solid rgb(0, 78, 150);;
+    margin: 0px 10px;
+    padding-left: 10px;  
+    border-radius: 10px;
+    background-color: rgb(2, 35, 66) ;
+    transition: all 0.5s ease-out;
+}
+#section-sixth .showcase div:hover
+{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 2px rgb(1, 18, 36), -2px -2px 10px 2px rgb(1, 14, 27);
+}
+#section-sixth .showcase div p
+{
+    font-size: 0.9rem;
+}
+#section-sixth .showcase div a
+{
+    color: rgb(26, 114, 197) ;
+    font-weight: bolder;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+#section-sixth .showcase div h5
+{
+    margin: 10px 0px;
+}
+#section-sixth > div > div h4
+{
+    color:rgb(95, 163, 228) ;
+    margin-bottom: 1rem;
+}
+#section-sixth > div > div h1
+{
+    margin-bottom: 1rem;
+    max-width: 500px;
+    font-size: 2.5rem;
+    margin-left: 5px;
+   font-weight: bolder;
+}
+#section-sixth > div > div h1 span
+{
+    color: rgb(71, 157, 238);
+}
+#section-sixth > div > div p
+{
+    color: #999;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+#section-sixth > div .div-1
+{
+    
+    display: inline-block;
+    padding: 15px 25px;
+    color: #fff;
+    background-color: rgb(21, 110, 192);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 1s ease-in-out;
+}
+#section-sixth > div .div-1:hover
+{
+    background-color: rgb(7, 81, 151);
+    
+}
+#section-sixth > div > div a i
+{
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+#section-sixth > div > div button
+{
+    transition: all 1s ease-in-out;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 78, 150);
+    background-color:rgb(2, 35, 66) ;
+    color: #999;
+}
+#section-sixth > div > div button:hover
+{
+    cursor:pointer;
+    background-color: rgb(3, 45, 83);
+}
+#section-sixth > div > div button i
+{
+    margin-left: 10px;
+    color: #999;
+}
+/* Section-seven starts */
+#section-seven
+{
+    max-width: 1100px;
+    margin: auto;
+    border-bottom: 1px solid rgb(7, 54, 102);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 30px;
+    color: #fff;
+    padding: 20px 0px 50px 0px;
+}
+#section-seven img
+{
+    width: 50px;
+    height: 50px;
+}
+#section-seven div p
+{
+    color: #999;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#section-seven div label
+{
+    font-size: 0.8rem;
+    color: #999;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#section-seven div input
+{
+    padding: 15px 15px 15px 5px;
+    border-radius: 10px;
+    border: 1px solid  rgb(0, 78, 150);
+    background-color:rgb(1, 19, 36) ;
+    margin-left: 2px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#section-seven div input:hover
+{
+    border:1px solid rgb(18, 125, 226);
+}
+#section-seven .s-7-data a
+{
+font-weight: bolder;
+color: #fff;
+padding: 12px;
+border-radius: 10px;
+background-color:rgb(30, 73, 118) ;
+transition: all 0.7s ease-in-out;
+}
+#section-seven .s-7-data a:hover{
+    background-color: rgb(19, 54, 92);
+}
+
+#section-seven .links
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+#section-seven .links div
+{
+    padding: 10px 0px 10px 10px;
+}
+#section-seven .links li a
+{
+ color: #999;
+ margin-top: 10px;
+ display: inline-block;
+ font-size: 0.9rem;
+}
+#section-seven .links li a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    color:rgb(18, 125, 226); ;
+}
+#footer
+{
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+#footer p
+{
+    font-size: 0.9rem;
+    color: #999;
+}
+#footer i
+{
+    padding: 0px 10px;
+    font-size: 1.2rem;
+    margin: 0px 5px;
+}
