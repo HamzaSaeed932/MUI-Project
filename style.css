@@ -487,3 +487,340 @@ margin-bottom: 0px;}
     background-color: rgb(1, 31, 61);
 }
 
+/* Section-forth start */
+#section-forth
+{
+    max-width: 1100px;
+    margin: auto;
+    color: #fff;
+    padding: 5rem 0rem;
+}
+.forth-text
+{
+    max-width: 500px;
+}
+#section-forth .forth-text p
+{
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color:rgb(103, 177, 252)  ;
+    margin-bottom: 1rem;
+}
+#section-forth .forth-text h1
+{
+    font-size: 2rem;
+}
+#section-forth .forth-text h1 span{color:rgb(103, 177, 252) ;}
+
+#section-forth .boxes
+{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-gap: 1rem;
+}
+#section-forth .boxes div
+{
+    border: 1px solid rgb(15, 91, 167);
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+    background-color:rgb(13, 49, 85) ;
+}
+#section-forth .boxes div h5
+{
+    margin: 1rem;
+    font-weight: bolder;
+    color: #fff;
+}
+#section-forth .boxes div p
+{
+    font-size: 0.9rem;
+    color: #ccc;
+    line-height: 1.4;
+}
+#section-forth .forth-text-2 p
+{
+    color:rgb(103, 177, 252) ;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+#section-forth .forth-text-2 h1
+{
+    font-size: 2.5rem;
+   margin-bottom: 1rem;
+}
+.forth-text-2
+{
+    max-width: 600px;
+}
+#section-forth .forth-text-2 h1 span
+{
+    color:rgb(103, 177, 252) ;
+}
+#section-forth > button
+{
+    float:right;
+    background-color: rgb(3, 35, 70);
+    border: none;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    color: #ccc;
+    cursor: pointer;
+}
+#section-forth .modify
+{
+    border:1px solid rgb(29, 123, 218) ;
+    border-radius: 10px;
+    color: #fff;
+    background-color:rgb(13, 78, 143) ;
+}
+#section-forth .hover:hover
+{
+    background-color: rgb(4, 46, 87) ;
+    border-radius: 10px;
+}
+#section-forth .detail
+{
+    margin-top: 5rem;
+    background-color:rgb(1, 20, 39)  ;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    overflow: hidden;
+    
+}
+  
+#section-forth .detail .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 180px;
+    width: 100%;
+}
+#section-forth .detail .cart button
+{
+    display: block;
+    padding: 10px 15px;
+    color: #222;
+    background-color:rgb(107, 171, 235) ;
+    border-radius: 10px;
+}
+#section-forth .detail .cart button i
+{
+    color: #000;
+}
+
+#section-forth .detail > div button
+{
+ padding: 5px 10px;
+ margin-left: 5px;
+ margin-top: 5px;
+ color: #ccc;
+ background-color:rgb(1, 20, 39)  ;
+ font-weight: bolder;
+ border: none;
+}
+#section-forth .detail > div 
+{
+    border:1px solid rgb(2, 36, 70) ;
+}
+#section-forth .detail .light
+
+{
+    color: rgb(70, 138, 206) ;
+    border-bottom: 2px solid rgb(70, 138, 206);
+}
+#section-forth .detail p
+{
+    color: #ccc;
+    font-weight: bolder;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+.bg-black
+{
+    background-color: rgb(2, 14, 26) !important;
+    font-size: 1rem;
+    color:rgb(155, 195, 235)!important;
+}
+.bg-black i
+{
+    color:rgb(59, 131, 202)!important ;
+    font-size: 1.2rem;
+}
+.cart input
+{
+    padding: 15px 10px;
+    color: #fff;
+    background-color:rgb(1, 20, 39);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.link
+{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.link a
+{
+    color:rgb(90, 153, 216) ;
+    font-weight: bolder;
+}
+.link a:hover
+{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(1, 27, 53);
+
+}
+.table
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.table tr td,
+.table tr th
+{
+    padding: 15px 20px;  
+}
+.table table 
+{
+    background-color: #111;
+    border: 1px solid #444;
+border-radius: 5px;
+}
+
+#section-forth .last
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+#section-forth .last div
+{
+    padding: 0rem 1rem;
+    text-align: center;
+}
+#section-forth .last div p
+{
+    color: #ccc;
+    font-weight: lighter;
+    margin: 0.5rem 0rem;
+}
+#section-forth .last div a
+{
+    color:rgb(54, 141, 228) ;
+    font-size: 0.9rem;
+}
+#section-forth .last div a i
+{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+.follower
+{
+    background-color:rgb(20, 49, 78) ;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+.follower > div
+{
+    max-width: 1100px;
+    margin: auto;
+    padding: 5rem 0rem;
+}
+.follower > div > div{
+    display: flex;
+}
+.follower > div > div div
+{
+    flex: 1;
+}
+.follower i{
+    border: 1px solid rgb(3, 72, 138)  ;
+    padding: 12px 14px;
+    border-radius:50%;
+    margin-bottom: 1rem;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+.follower .fa-greater-than
+{
+    border: 1px solid rgb(12, 125, 231)  ;
+    color: #fff;
+    margin-left:20px;
+
+}
+.follower .message p
+{
+    font-weight: bold;
+    padding: 10px 10px 10px 0px;
+    line-height: 1.5;
+}
+.follower .message h3
+{
+    color: rgb(12, 125, 231);
+    margin-top: 1rem;
+}
+.follower .message h3 span
+{
+font-weight: lighter;
+color: #999;
+}
+
+.follow-detail
+{
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    margin-left: 3rem;
+}
+.follow-detail div
+{
+    border-left: 1px solid rgb(1, 62, 119);
+    padding: 5px 20px;
+}
+.follow-detail div h1
+{
+    color: rgb(96, 173, 245) ;
+    margin-bottom: 0.3rem;
+}
+#section-fifth div
+{
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 80px;
+    color: #fff;
+}
+#section-fifth div h5
+{
+    color:rgb(104, 167, 226) ;
+    margin-bottom: 1rem;
+}
+#section-fifth div h1
+{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+#section-fifth div h1 span
+{
+    color:rgb(82, 146, 206) ;
+}
+#section-fifth div p
+{
+    max-width: 500px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: #aaa;
+}
