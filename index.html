@@ -15,60 +15,63 @@
 
 <body>
     <header id="header">
-        <div class="nav">
-            <div class="logo">
-                <img src="./Img/logo.png" alt="">
+        <div class="flex">
+
+            <div class="nav">
+                <div class="logo">
+                    <img src="./Img/logo.png" alt="">
+                </div>
+                <nav id="navbar">
+                    <ul>
+                        <li>Products
+                            <ul>
+                                <li><a href="#">
+                                        <h2>MUI Core</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellat!</p>
+                                    </a></li>
+                                <li>
+                                    <a href="#">
+                                        <h2>MUIX</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, accusamus.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <h2>Templates</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, vel?</p>
+                                    </a>
+    
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Docs
+                            <ul>
+                                <li><a href="#">
+                                        <h2>Design Kits</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellat!</p>
+                                    </a></li>
+                                <li>
+                                    <a href="#">
+                                        <h2>MUI Toolpad</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, accusamus.</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav id="navbar">
-                <ul>
-                    <li>Products
-                        <ul>
-                            <li><a href="#">
-                                    <h2>MUI Core</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellat!</p>
-                                </a></li>
-                            <li>
-                                <a href="#">
-                                    <h2>MUIX</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, accusamus.</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <h2>Templates</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, vel?</p>
-                                </a>
-
-                            </li>
-                        </ul>
-                    </li>
-                    <li>Docs
-                        <ul>
-                            <li><a href="#">
-                                    <h2>Design Kits</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, repellat!</p>
-                                </a></li>
-                            <li>
-                                <a href="#">
-                                    <h2>MUI Toolpad</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, accusamus.</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Blog</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div class="search-part">
-
-            <button><i class="fa-solid fa-magnifying-glass"></i> Search... <span>Ctrl + K</span></button>
-
-            <i class="fa-brands fa-github "></i>
-            <i class="fa-solid fa-circle-half-stroke "></i>
+    
+            <div class="search-part flex-c">
+    
+                <button><i class="fa-solid fa-magnifying-glass"></i> Search... <span>Ctrl + K</span></button>
+    
+                <i class="fa-brands fa-github "></i>
+                <i class="fa-solid fa-circle-half-stroke "></i>
+            </div>
         </div>
     </header>
     <!-- Header Ends.. -->
@@ -77,20 +80,20 @@
 
     <section id="section-one">
         <div class="text">
-            <h1><span>Move faster</span> with intuituve React UI tools</h1>
+            <h1 class="l-heading p-1 my-1"><span>Move faster</span> with intuituve React UI tools</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi architecto nemo illum? Facere nostrum
                 quos quia itaque, repellendus numquam nemo vitae modi nam, soluta sapiente?</p>
-            <a href="#">Get started <i class="fa-solid fa-greater-than"></i></a>
-            <button>npm install @mui/material @emotion... <i class="fa-regular fa-copy"></i></button>
+            <a href="#" class="p-1">Get started <i class="fa-solid fa-greater-than"></i></a>
+            <button class="p-1">npm install @mui/material @emotion... <i class="fa-regular fa-copy"></i></button>
         </div>
         <div class="pics">
             <div class="basic">
-                <p>Chect the docs for getting every component API</p>
-                <div>
-                    <div class="img">
+                <p>Check the docs for getting every component API</p>
+                <div class="flex-c">
+                    <div class="img p-1">
                         <img src="./img/img1.jpg" alt="">
                     </div>
-                    <p><span>Assigned to</span> <br> Mischael scott</p>
+                    <p><span class="s-heading">Assigned to</span> <br> Mischael scott</p>
                 </div>
 
             </div>
@@ -98,7 +101,7 @@
                 <img src="./Img/Capture.PNG" alt="">
             </div>
 
-            <div class="play">
+            <div class="play px-1 flex-c">
                 <div>
                     <img src="./Img/Capture1.PNG" alt="">
                 </div>
@@ -122,9 +125,9 @@
     <!-- Section One end -->
 
     <!--Section Second Started  -->
-    <section id="section-second">
+    <section id="section-second" class="container">
 
-        <div class="images">
+        <div class="images flex-c">
             <div><img src="./Img/spo.png" alt=""></div>
             <div>
                 <img src="./Img/amazon.png" alt="">
@@ -149,12 +152,12 @@
     <!-- Section-second end -->
     <!-- Section-third start -->
 
-    <section id="section-third">
-        <div class="section-T">
+    <section id="section-third" >
+        <div class="section-T container py-2 flex-c">
             <div>
                 <div>
                     <h5>Products</h5>
-                    <h1>Every component you need is <span>ready for production</span></h1>
+                    <h1 class="m-heading">Every component you need is <span>ready for production</span></h1>
                     <p>Build at an accelerated pace without sacrificing flexibility or control.</p>
 
                 </div>
@@ -200,41 +203,41 @@
     <!-- Section-third end -->
     <!-- Section-forth start -->
 
-    <section id="section-forth">
+    <section id="section-forth" class="container py-3">
 
-        <div class="forth-text">
+        <div class="forth-text l-heading-w">
             <p>Why build with MUI?</p>
-            <h1>A <span>delightful</span> experience for you and your users</h1>
+            <h1 class="m-heading">A <span>delightful</span> experience for you and your users</h1>
         </div>
 
         <div class="boxes">
             <div>
-                <h5>Timeless aesthetics</h5>
+                <h5 class="m-1">Timeless aesthetics</h5>
                 <p>Build beautiful UIs with ease. Start with Google's Material Design, or create your own sophisticated
                     theme.
                 </p>
             </div>
             <div>
-                <h5>Intuitive customization</h5>
+                <h5 class="m-1">Intuitive customization</h5>
                 <p>Our components are as flexible as they are powerful. You always have full control over how they look
                     and behave.
                 </p>
             </div>
             <div>
-                <h5>Unrivaled documentation</h5>
+                <h5 class="m-1">Unrivaled documentation</h5>
                 <p>The answer to your problem can be found in our documentation. How can we be so sure? Because our docs
                     boast over 2,000 contributors.
                 </p>
             </div>
             <div>
-                <h5>Dedicated to accessibility</h5>
+                <h5 class="m-1">Dedicated to accessibility</h5>
                 <p>We believe in building for everyone. That's why accessibility is one of our highest priorities with
                     every new feature we ship
                 </p>
             </div>
         </div>
 
-        <div class="forth-text-2">
+        <div class="forth-text-2 l-heading-w">
             <p>Production-ready components</p>
             <h1>Beautiful and powerful,<span> right out of the box</span></h1>
         </div>
@@ -250,7 +253,7 @@
                     <button class="light">Medium</button>
                     <button>Large</button>
                 </div>
-                <div class="cart">
+                <div class=" cart">
                     <button>
                         <i class="fa-solid fa-cart-shopping"></i>
                         ADD TO CART
@@ -266,7 +269,7 @@
                 <button>Outlined</button>
 
                 <div class="cart">
-                    <button class="bg-black">
+                    <button class="bg-black s-heading">
                         <i class="fa-solid fa-circle-check"></i>
                         Check out this alert!
                     </button>
@@ -288,14 +291,14 @@
 
             </div>
             <div>
-                <div class="link">
+                <div class="link flex-c">
                     <a href="#">Click to open</a>
                 </div>
                 <p>Menu</p>
             </div>
 
             <div>
-                <div class="table">
+                <div class="table flex-c">
 
                     <table>
                         <tr>
@@ -317,8 +320,8 @@
                 <p>Table</p>
             </div>
 
-            <div class="last">
-                <div>
+            <div class="last flex-c px-2">
+                <div class="px-1">
                     <h5>Want to see more?</h5>
                     <p>Check out the docs for details of the complete library.</p>
                     <a href="#">Learn more <i class="fa-solid fa-greater-than"></i> </a>
@@ -332,14 +335,13 @@
     <!-- Section-forth Ends -->
 
     <div class="follower">
-
-        <div>
+        <div class="container py-3">
             <i class="fa-solid fa-less-than"></i>
             <i class="fa-solid fa-greater-than"></i>
-            <div>
+            <div class="flex-c">
 
                 <div class="message">
-                    <p>"MUI offers a wide variety of high quality components that have allowed us to ship features
+                    <p class="py-1">"MUI offers a wide variety of high quality components that have allowed us to ship features
                         faster. MUI has been used by more than a hundred engineers in our organization. What's more,
                         MUI's well architected customization system has allowed us to differentiate ourselves in the
                         marketplace."</p>
@@ -373,12 +375,12 @@
     </div>
 
     <!-- Section-Fifth start -->
-    <section id="section-fifth">
+    <section id="section-fifth" class="container">
 
         <div class="section-fifth-data">
             <h5>Sponsors</h5>
-            <h1><span>You </span>make this possible</h1>
-            <p>The development of these open-source tools is accelerated by our generous sponsors</p>
+            <h1 class="m-heading"><span>You </span>make this possible</h1>
+            <p class="l-heading-w">The development of these open-source tools is accelerated by our generous sponsors</p>
 
             <h1><span>Diamond</span></h1>
 
@@ -509,24 +511,24 @@
     <!-- Section-sixth start -->
 
     <section id="section-sixth">
-        <div>
-            <div>
+        <div class="container flex-c">
+            <div class="px-1">
                 <h4>Start now</h4>
-                <h1>Ship your next project<span> faster</span></h1>
+                <h1 class=" m-heading l-heading-w">Ship your next project<span> faster</span></h1>
                 <p>Find out why MUI's tools are trusted by thousands of open source developers and teams around the
                     world.</p>
                 <a href="#" class="div-1">Get started <i class="fa-solid fa-greater-than"></i></a>
                 <button>npm install @mui/material @emotion... <i class="fa-regular fa-copy"></i></button>
             </div>
 
-            <div class="showcase">
-                <div>
-                    <h5>Showcase</h5>
+            <div class="showcase flex-c mx-1">
+                <div class="mx-1">
+                    <h5 class="my-1">Showcase</h5>
                     <p>Check out some great examples of MUI's products in action.</p>
                     <a href="#">Learn more <i class="fa-solid fa-greater-than"></i></a>
                 </div>
-                <div>
-                    <h5>Blog</h5>
+                <div class="mx-1">
+                    <h5 class="my-1">Blog</h5>
                     <p>Read the latest updates about our company and products.</p>
                     <a href="#">Learn more <i class="fa-solid fa-greater-than"></i></a>
                 </div>
@@ -537,7 +539,7 @@
 
     <!-- Section-sixth ends -->
     <!-- Section-Seven Starts -->
-    <section id="section-seven">
+    <section id="section-seven" class="container">
        
             <div class="s-7-data">
                 <img src="./Img/logo.png" alt="">
@@ -546,7 +548,7 @@
 
                 <label for="email">Enter your email:</label>
                 <input type="email" placeholder="example@email.com">
-                <a href="#">Subscribe</a>
+                <a href="#" class="p-1">Subscribe</a>
             </div>
 
             <div class="links">
@@ -600,7 +602,7 @@
     <!-- Section-seven ends -->
 
     <!-- footer -->
-    <footer id="footer">
+    <footer id="footer" class="container flex py-3">
         
             <p>Copyright &copy; 2022 Material UI SAS.</p>
 
