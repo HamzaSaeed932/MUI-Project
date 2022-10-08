@@ -1,0 +1,126 @@
+#navbar
+{
+    display: none;
+}
+#section-one .text {
+    padding: 1rem;
+}
+
+#section-one h1
+{
+    font-size: 2.5rem;
+}
+#section-second .images
+{
+    flex-direction: column;
+}
+#section-second .images div {
+  padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    margin-top: -2rem;
+}
+#section-third .section-T .section-T-2 
+{
+    margin: 0rem 1rem;
+}
+#section-third .section-T .section-T-2 img
+{
+    max-width: 100%;
+}
+#section-forth .forth-text
+{
+    padding: 0rem 0.5rem;
+    margin-left: 1rem;
+}
+#section-forth .boxes
+{
+    margin: 2rem 2rem;
+    display: grid;
+     grid-template-columns: repeat(1,1fr);
+     grid-gap: 0.5rem;
+}
+#section-forth .forth-text p,
+#section-forth .forth-text h1
+{
+    margin-left: 1rem;
+}
+#section-forth .forth-text-2
+{
+    margin-left: 1rem;
+}
+#section-forth .detail
+{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    overflow: hidden; 
+}
+.follower div
+{
+    flex-direction: column;
+}
+.follower div div
+{
+    margin-bottom: 1rem;
+}
+.follower .container
+{
+    padding: 2rem 1rem;
+}
+.follow-detail
+{
+    margin-left: 0rem;
+}
+#section-fifth
+{
+    margin: 0rem 1rem;
+}
+#section-fifth .diamond
+{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+}
+#section-fifth .Gold 
+{
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 2rem;
+}
+#section-fifth .Gold  .mega
+{
+    display: none;
+}
+#section-sixth .container
+{
+    flex-direction: column;
+}
+#section-sixth .container a,
+#section-sixth .container button
+{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+#section-sixth .container button
+{
+    margin-bottom: 3rem;
+
+}
+#section-seven
+{
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    padding: 1rem;
+}
+#section-seven .links
+{
+    grid-template-columns: repeat(2,1fr);
+}
+#footer 
+{
+    flex-direction: column;
+}
+#footer p
+{
+   margin-top: -2rem;
+   margin-bottom: 2rem;
+}
